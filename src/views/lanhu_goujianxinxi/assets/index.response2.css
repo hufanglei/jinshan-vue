@@ -1,8 +1,13 @@
+/*html {*/
+/*  min-height: 100%*/
+/*}*/
 .page {
-  background-color: rgba(228, 234, 252, 1);
+  /*background-color: rgba(228, 234, 252, 1);*/
+  background-color: rgba(23,29,44,1);
   position: relative;
   width: 100vw;
   height: 245.07vw;
+  /*height: 215.07vw;*/
   overflow: hidden;
   padding: 0;
 }
@@ -13,6 +18,8 @@
   background: url(./img/SketchPngd43acc5771490aba366e69a2de322d7759e7eb57914e3da9a94efacfad38091e.png)
     100% no-repeat;
   background-size: 100% 100%;
+  background-size: cover;
+
 }
 
 .section_1 {
@@ -165,7 +172,7 @@
   font-size: 3.73vw;
   letter-spacing: 0.08399999886751175px;
   font-weight: NaN;
-  text-align: center;
+  /*text-align: center;*/
   white-space: nowrap;
   line-height: 5.34vw;
   margin: 4vw 32vw 0 0.26vw;
@@ -393,7 +400,7 @@
   font-size: 3.73vw;
   letter-spacing: 0.08399999886751175px;
   font-weight: NaN;
-  text-align: center;
+  /*text-align: center;*/
   white-space: nowrap;
   line-height: 5.34vw;
   margin: 11.46vw 9.6vw 0 1.06vw;
